@@ -16,4 +16,8 @@ Very dumb proxy. You will have to clear out the cache folder if you want
 to see new/updated content.
 
 Great for server migrations, simply place this on the old server while
-the DNS propegates.
+the DNS propagates.
+
+## Clearing the cache
+I have put a rather crude rm -rfv inside `clear.php`. You might want
+to remove this on a production reployment & protect it with a htpasswd.
